@@ -17,8 +17,8 @@
         <label for="age">年齢：</label>
         <input type="number" id="age" name="age" required><br><br>
 
-        <label for="tell">電話番号：</label>
-        <input type="tell" id="tell" name="tell" required><br><br>
+        <label for="tel">電話番号：</label>
+        <input type="tel" id="tel" name="tel" required><br><br>
 
         <label for="email">メールアドレス：</label>
         <input type="email" id="email" name="email" required><br><br>
