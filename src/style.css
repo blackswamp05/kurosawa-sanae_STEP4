@@ -6,7 +6,11 @@ padding: 20px;
 
 h1{
 text-align: center;
-color: black;
+color:rgb(1, 0, 60);
+background-color:rgb(120, 250, 255);
+max-width: 640px;
+margin: 12px auto;
+border-radius: 8px;
 }
 
 form{
@@ -25,8 +29,10 @@ margin-bottom: 6px;
 
 input[type="text"],
 input[type="number"],
+input[type="tell"],
+input[type="email"],
 textarea{
-width: 100%;
+width: 80%;
 padding: 8px;
 margin-bottom: 12px;
 border: 1px solid #ccc;

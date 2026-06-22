@@ -17,8 +17,8 @@
         <label for="age">年齢：</label>
         <input type="number" id="age" name="age" required><br><br>
 
-        <label for="phone">電話番号：</label>
-        <input type="phone" id="phone" name="phone" required><br><br>
+        <label for="tell">電話番号：</label>
+        <input type="tell" id="tell" name="tell" required><br><br>
 
         <label for="email">メールアドレス：</label>
         <input type="email" id="email" name="email" required><br><br>
@@ -26,11 +26,15 @@
         <label for="address">住所：</label>
         <input type="text" id="address" name="address" required><br><br>
 
-        <label for="question">質問：</label>
-        <textarea id="note" name="question" rows="4" required></textarea><br><br>
+        <label for="note">質問：</label>
+        <textarea id="note" name="note" rows="4" required></textarea><br><br>
 
         <label for="gender">性別：</label>
-        <input type="gender" id="gender" name="gender" required><br><br>
+        <select id="gender" name="gender">
+        <option value="未回答">未回答</option>
+        <option value="男性">男性</option>
+        <option value="女性">女性</option>
+        </select><br><br>
 
         <button type="submit">送信</button>
     </form>
